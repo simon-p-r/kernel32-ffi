@@ -1,0 +1,36 @@
+{
+  "name": "kernel32-ffi",
+  "version": "0.0.1",
+  "description": "kenrel32 ffi api",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -t 100 -v -a code -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/simon-p-r/kernel32-ffi.git"
+  },
+  "keywords": [
+    "win32",
+    "ffi",
+    "kernel32",
+    "windows"
+  ],
+  "author": "simon-p-r",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/simon-p-r/kernel32-ffi/issues"
+  },
+  "homepage": "https://github.com/simon-p-r/kernel32-ffi#readme",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^13.0.1"
+  },
+  "dependencies": {
+    "ffi": "^2.2.0",
+    "ref": "^1.3.4"
+  }
+}
